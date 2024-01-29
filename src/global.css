@@ -8,6 +8,7 @@
 
 body {
   min-width: 320px;
+  font-family: 'SpoqaHanSansNeo', sans-serif;
 }
 
 button {
@@ -29,4 +30,52 @@ li {
 
 input:focus {
   outline: none;
+}
+
+/** Noto Sans KR */
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 300;
+  src: url(../public/fonts/NotoSansKR-Light.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  src: url(../public/fonts/NotoSansKR-Regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 500;
+  src: url(../public/fonts/NotoSansKR-Medium.woff2) format('woff2');
+}
+
+/** SpoqaHanSansNeo */
+@font-face {
+  font-family: 'SpoqaHanSansNeo';
+  font-weight: 100;
+  src: url(../public/fonts/SpoqaHanSansNeo-Thin.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'SpoqaHanSansNeo';
+  font-weight: 300;
+  src: url(../public/fonts/SpoqaHanSansNeo-Light.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'SpoqaHanSansNeo';
+  font-weight: 400;
+  src: url(../public/fonts/SpoqaHanSansNeo-Regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'SpoqaHanSansNeo';
+  font-weight: 500;
+  src: url(../public/fonts/SpoqaHanSansNeo-Medium.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'SpoqaHanSansNeo';
+  font-weight: 700;
+  src: url(../public/fonts/SpoqaHanSansNeo-Bold.woff2) format('woff2');
 }
