@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider } from 'styled-components';
-import './normalize.css';
-import './global.css';
+import './shared/styles/global/normalize.css';
+import './shared/styles/global/global.css';
 import App from './App';
 import theme from './shared/styles/global/theme';
 
