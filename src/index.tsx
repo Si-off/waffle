@@ -7,11 +7,12 @@ import './shared/styles/global/normalize.css';
 import './shared/styles/global/global.css';
 import App from './App';
 import theme from './shared/styles/global/theme';
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { QueryClientProvider } from '@tanstack/react-query';
+import { getClient } from './shared/service/queries';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
-const queryClient = new QueryClient();
+const queryClient = getClient();
 
 root.render(
   <React.StrictMode>
