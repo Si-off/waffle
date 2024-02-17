@@ -1,12 +1,23 @@
-import { styledOptions } from '@/theme';
+import { styledColorOptions, styledFontOptions } from '@/theme';
 import { DefaultTheme, css } from 'styled-components';
 
-type Key = keyof typeof styledOptions;
+type ColorsKey = keyof typeof styledColorOptions;
+type FontsKey = keyof typeof styledFontOptions;
 
-const getStyled = <T extends Key, P extends keyof DefaultTheme[T]>(key: T, subKey: P) => {
+export const getStyledColor = <T extends ColorsKey, P extends keyof DefaultTheme[T]>(
+  key: T,
+  subKey: P,
+) => {
+  return css`
+    ${({ theme }) => (typeof theme[key] === 'object' ? theme[key][subKey] ?? '' : theme[key] ?? '')}
+  `;
+};
+
+export const getStyledFont = <T extends FontsKey, P extends keyof DefaultTheme[T]>(
+  key: T,
+  subKey: P,
+) => {
   return css`
     ${({ theme }) => theme[key][subKey] ?? ''}
   `;
 };
-
-export default getStyled;
