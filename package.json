@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mui/icons-material": "^5.15.10",
+    "@mui/material": "^5.15.10",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.16",
     "@tanstack/react-query": "^5.20.5",
     "@tanstack/react-query-devtools": "^5.20.5",
     "@testing-library/jest-dom": "^5.17.0",
@@ -13,15 +16,17 @@
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
     "axios": "^1.6.7",
+    "framer-motion": "^11.0.5",
     "qs": "^6.11.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^5.0.1",
+    "react-hook-form": "^7.50.1",
     "react-scripts": "5.0.1",
     "react-svg": "^16.1.33",
     "styled-components": "^6.1.8",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4",
+    "zod": "^3.22.4",
     "zustand": "^4.5.0"
   },
   "scripts": {
