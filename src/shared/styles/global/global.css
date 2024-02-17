@@ -1,14 +1,18 @@
-*,
-*::before,
-*::after {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
-  min-width: 320px;
+  min-width: 375px;
+  height: 100%;
   font-family: 'SpoqaHanSansNeo', sans-serif;
+  color: #151411;
 }
 
 button {
@@ -31,6 +35,7 @@ li {
 input:focus {
   outline: none;
 }
+
 /** SpoqaHanSansNeo */
 @font-face {
   font-family: 'SpoqaHanSansNeo';
