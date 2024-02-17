@@ -1,5 +1,5 @@
 import { DefaultTheme } from 'styled-components';
-import { pixelToRem } from './utils';
+import { pixelToRem } from '../../utils';
 
 export const styledColorOptions = {
   primary: '#518581',

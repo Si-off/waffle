@@ -1,4 +1,4 @@
 import pixelToRem from './pixelToRem';
-import getStyled from './getStlyed';
+import { getStyledColor, getStyledFont } from './getStlyed';
 
-export { pixelToRem, getStyled };
+export { pixelToRem, getStyledColor, getStyledFont };

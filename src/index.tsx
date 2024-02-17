@@ -5,7 +5,7 @@ import { ThemeProvider } from 'styled-components';
 import './normalize.css';
 import './global.css';
 import App from './App';
-import theme from './theme';
+import theme from './shared/styles/global/theme';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(

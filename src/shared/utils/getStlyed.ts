@@ -1,4 +1,4 @@
-import { styledColorOptions, styledFontOptions } from '@/theme';
+import { styledColorOptions, styledFontOptions } from '@/shared/styles/global/theme';
 import { DefaultTheme, css } from 'styled-components';
 
 type ColorsKey = keyof typeof styledColorOptions;
