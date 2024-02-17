@@ -8,9 +8,6 @@ const getClient = (() => {
       client = new QueryClient({
         defaultOptions: {
           queries: {
-            refetchOnMount: false,
-            refetchOnReconnect: false,
-            refetchOnWindowFocus: false,
             retry: 0,
           },
         },
