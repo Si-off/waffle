@@ -1,6 +1,14 @@
 import { DefaultTheme } from 'styled-components';
 
-export const styledOptions = {} as const;
+export const styledOptions = {
+  primary: {},
+  secondary: {},
+  title: {},
+  paragraph: {},
+  placeholder: {},
+  screen: {},
+  alert: {},
+} as const;
 
 const theme: DefaultTheme = { ...styledOptions };
 
