@@ -1,7 +1,8 @@
 import axios, { AxiosRequestConfig } from 'axios';
+import injectInterceptors from './interceptors';
 
 const BASE_URL = process.env.REACT_APP_SERVER_URL;
-const instance = axios.create({ baseURL: BASE_URL });
+const instance = injectInterceptors(axios.create({ baseURL: BASE_URL }));
 
 export const getAxiosInstance = (endpoint: string) => {
   const get = async <T>(queries: object = {}) => {
