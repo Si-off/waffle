@@ -15,5 +15,10 @@
     "sourceType": "module"
   },
   "plugins": ["@typescript-eslint", "react"],
-  "rules": {}
+  "rules": {
+    "@typescript-eslint/no-empty-interface": "off",
+    "react/react-in-jsx-scope": "off",
+    "no-unused-vars": "off",
+    "react/prop-types": "off"
+  }
 }
